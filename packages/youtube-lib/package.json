@@ -1,0 +1,17 @@
+{
+  "name": "@yue-srt-editor/subtitle-lib",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "4.14.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.4",
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5"
+  }
+}

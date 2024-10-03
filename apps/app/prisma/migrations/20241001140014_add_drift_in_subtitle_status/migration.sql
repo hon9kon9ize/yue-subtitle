@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `subtitles` MODIFY `status` ENUM('PENDING', 'PROCESSING', 'DRIFT', 'DONE', 'ERROR') NOT NULL DEFAULT 'PENDING';

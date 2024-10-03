@@ -1,0 +1,29 @@
+{
+  "name": "yue-srt-editor",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Joseph Cheng<joseph.cheng@hon9kon9ize.com> (https://hon9kon9ize.com)",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "test:watch": "turbo test:watch"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "husky": "9.1.6",
+    "prettier": "3.3.3",
+    "turbo": "2.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "yarn@1.22.22"
+}
